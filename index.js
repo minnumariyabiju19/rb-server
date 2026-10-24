@@ -1,7 +1,7 @@
 
 const jsonServer= require('json-server')
 const rbServer=jsonServer.create()
-const router=jsonServer.router('db-json')
+const router=jsonServer.router('db.json')
 const middleware=jsonServer.defaults()
 
 const PORT=3000
